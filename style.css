@@ -1,0 +1,199 @@
+* {
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 0px auto;
+}
+.container {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: stretch; */
+    /* align-content: center; */
+
+}
+
+/* INICIO NAV-BAR */
+.nav-bar {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color:lightskyblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nav-title {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.nav-links {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-city {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+/* FINAL NAV-BAR */
+
+/* INICIO CONTAINER PRINCIPAL */
+.flex-container-principal {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    /* align-items: center; */
+}
+/* INICIO HEADER */
+.header {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header-title {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.header-flex-container {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header-text {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.temp-list {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.celsius {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.fahrenheit {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+/* FINAL HEADER */
+
+/* INICIO CONTAINER CENTRAL */
+.flex-container-central {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.day {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.day-title {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.day-weather {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.day-text {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.day-container {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.max-t {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.min-t {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+/* FINAL CONTAINER CENTRAL */
+
+/* INICIO CONTAINER BOTTOM */
+.bottom-flex-container {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.coockie-pic {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.coockie-container {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.coockie-title {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.coockie-text {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.coockie-btn {
+    border: 2px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+/* FINAL CONTAINER BOTTOM */
+
+/* FINAL CONTAINER PRINCIPAL */

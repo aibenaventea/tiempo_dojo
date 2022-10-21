@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo_dojo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <nav class="nav-bar">
+            <h1 class="nav-title">
+                DojoWeather
+            </h1>
+            <ul class="nav-links">
+                <li class="nav-city">Burbank</li>
+                <li class="nav-city">Chicago</li>
+                <li class="nav-city">Dallas</li>
+            </ul>
+        </nav>
+        <div class="flex-container-principal">
+            <header class="header">
+                <h2 class="header-title">San Jose</h2>
+                <div class="header-flex-container">
+                    <p class="header-text">Show temperature</p>
+                    <select class="temp-list" name="" id="">
+                        <option class="celsius" value="">°C</option>
+                        <option class="fahrenheit"value="">°F</option>
+                    </select>
+                </div>
+            </header>
+            <article class="flex-container-central">
+                <section class="day">
+                    <h3 class="day-title">Today</h3>
+                    <img class="day-weather" src="img/some_rain.png" alt="some_rain_pic">
+                    <p class="day-text">some rain</p>
+                    <div class="day-container">
+                        <p class="max-t">24<span>°</span></p>
+                        <p class="min-t">18<span>°</span></p>
+                    </div>
+                </section>
+                <section class="day">
+                    <h3 class="day-title">Tomorrow</h3>
+                    <img class="day-weather" src="img/some_sun.png" alt="">
+                    <p class="day-text">some sun</p>
+                    <div class="day-container">
+                        <p class="max-t">27<span>°</span></p>
+                        <p class="min-t">19<span>°</span></p>
+                    </div>
+                </section>
+                <section class="day">
+                    <h3 class="day-title">Friday</h3>
+                    <img class="day-weather" src="img/some_clouds.png" alt="some_clouds_pic">
+                    <p class="day-text">some clouds</p>
+                    <div class="day-container">
+                        <p class="max-t">21<span>°</span></p>
+                        <p class="min-t">16<span>°</span></p>
+                    </div>
+                </section>
+                <section class="day">
+                    <h3 class="day-title">Saturday</h3>
+                    <img class="day-weather" src="img/some_sun.png" alt="some_sun_pic">
+                    <p class="day-text">some sun</p>
+                    <div class="day-container">
+                        <p class="max-t">26<span>°</span></p>
+                        <p class="min-t">21<span>°</span></p>
+                    </div>
+                </section>
+            </article>
+            <footer class="bottom-flex-container">
+                <img class="coockie-pic" src="img/cookie.png" alt="coockie_pic">
+                <section class="coockie-container">
+                    <h4 class="coockie-title">Stop! Cookie time</h4>
+                    <p class="coockie-text">We use coockies (sadly not the edible ones) to personalize <br>
+                    content and ads, to provide social media features and to <br>
+                    analyse our traffic. <a href="">Read more...</a>
+                    </p>
+                </section>
+                <button class="coockie-btn">I Accept </button>
+            </footer>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

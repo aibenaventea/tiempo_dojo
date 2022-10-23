@@ -26,61 +26,63 @@
             <header class="header">
                 <h2 class="header-title">San Jose</h2>
                 <div class="header-flex-container">
-                    <p class="header-text">Show temperature</p>
-                    <select class="temp-list" name="" id="">
-                        <option class="celsius" value="">°C</option>
-                        <option class="fahrenheit"value="">°F</option>
+                    <p class="header-text">Show temperature in</p>
+                    <select class="temp-list">
+                        <option value="°C">°C</option>
+                        <option value="°F">°F</option>
                     </select>
                 </div>
             </header>
             <article class="flex-container-central">
-                <section class="day">
+                <section class="day-l">
                     <h3 class="day-title">Today</h3>
                     <img class="day-weather" src="img/some_rain.png" alt="some_rain_pic">
                     <p class="day-text">some rain</p>
                     <div class="day-container">
-                        <p class="max-t">24<span>°</span></p>
-                        <p class="min-t">18<span>°</span></p>
+                        <p class="max-t" id="temp1">24°</p>
+                        <p class="min-t" id="temp2">18°</p>
                     </div>
                 </section>
-                <section class="day">
+                <section class="day-c">
                     <h3 class="day-title">Tomorrow</h3>
                     <img class="day-weather" src="img/some_sun.png" alt="">
                     <p class="day-text">some sun</p>
                     <div class="day-container">
-                        <p class="max-t">27<span>°</span></p>
-                        <p class="min-t">19<span>°</span></p>
+                        <p class="max-t" id="temp3">27°</p>
+                        <p class="min-t" id="temp4">19°</p>
                     </div>
                 </section>
-                <section class="day">
+                <section class="day-c">
                     <h3 class="day-title">Friday</h3>
                     <img class="day-weather" src="img/some_clouds.png" alt="some_clouds_pic">
                     <p class="day-text">some clouds</p>
                     <div class="day-container">
-                        <p class="max-t">21<span>°</span></p>
-                        <p class="min-t">16<span>°</span></p>
+                        <p class="max-t" id="temp5">21°</p>
+                        <p class="min-t" id="temp6">16°</p>
                     </div>
                 </section>
-                <section class="day">
+                <section class="day-r">
                     <h3 class="day-title">Saturday</h3>
                     <img class="day-weather" src="img/some_sun.png" alt="some_sun_pic">
                     <p class="day-text">some sun</p>
                     <div class="day-container">
-                        <p class="max-t">26<span>°</span></p>
-                        <p class="min-t">21<span>°</span></p>
+                        <p class="max-t" id="temp7">26°</p>
+                        <p class="min-t" id="temp8">21°</p>
                     </div>
                 </section>
             </article>
             <footer class="bottom-flex-container">
-                <img class="coockie-pic" src="img/cookie.png" alt="coockie_pic">
-                <section class="coockie-container">
-                    <h4 class="coockie-title">Stop! Cookie time</h4>
-                    <p class="coockie-text">We use coockies (sadly not the edible ones) to personalize <br>
-                    content and ads, to provide social media features and to <br>
-                    analyse our traffic. <a href="">Read more...</a>
-                    </p>
-                </section>
-                <button class="coockie-btn">I Accept </button>
+                <div class="coockie-container">
+                    <img class="coockie-pic" src="img/cookie.png" alt="coockie_pic">
+                    <section class="coockie-message">
+                        <h4 class="coockie-title">Stop! Cookie time</h4>
+                        <p class="coockie-text">We use coockies (sadly not the edible ones) to personalize <br>
+                        content and ads, to provide social media features and to <br>
+                        analyse our traffic. <a href="">Read more...</a>
+                        </p>
+                    </section>
+                    <button class="coockie-btn">I Accept </button>
+                </div>
             </footer>
         </div>
     </main>
